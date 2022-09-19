@@ -1,0 +1,27 @@
+#frozenset->unordered data type and immutable
+myfrozenset=frozenset(["fd","dh","ge"])
+print(myfrozenset)
+
+frozenset({'fd', 'ge', 'dh'})
+
+
+
+l=(3,5,3,6,7)
+fnum=frozenset(l)
+print(fnum)
+
+frozenset({3, 5, 6, 7})
+
+
+
+
+
+#creating dictionary
+Dict={"name":"Chandni","branch":"AIML","college":"dce"}
+print(Dict)
+#dictonary to frozenset
+fnum=frozenset(Dict)
+print("Object is",fnum)
+
+{'name': 'Chandni', 'branch': 'AIML', 'college': 'dce'}
+Object is frozenset({'name', 'branch', 'college'})
